@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "97467940705",
+    "project_id": "bookmytutor-3a053",
+    "storage_bucket": "bookmytutor-3a053.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97467940705:android:7e63fc61e6f77a5579cf20",
+        "android_client_info": {
+          "package_name": "com.example.bookmytutor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97467940705-4tktku2udj81qt5ppl542q6bhvj4uvha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeLbCQ5EDl2mHzj7JmUX8Z0PDpCmxjaPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97467940705-4tktku2udj81qt5ppl542q6bhvj4uvha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

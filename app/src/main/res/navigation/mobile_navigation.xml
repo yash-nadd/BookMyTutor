@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_myaccount">
+
+    <fragment
+        android:id="@+id/nav_myaccount"
+        android:name="com.example.bookmytutor.ui.myaccount.MyAccountFragment"
+        android:label="@string/menu_myaccount"
+        tools:layout="@layout/fragment_myaccount" />
+
+    <fragment
+        android:id="@+id/nav_mybookings"
+        android:name="com.example.bookmytutor.ui.mybookings.MyBookingsFragment"
+        android:label="@string/menu_mybookings"
+        tools:layout="@layout/fragment_mybookings" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.bookmytutor.ui.Logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+</navigation>
